@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sagar | Meta Ads &amp; Google Ads Specialist — Performance Marketing Freelancer</title>
+<meta name="description" content="I help businesses generate more leads, increase sales, and maximize ROI through strategic Meta Ads and Google Ads campaigns. Freelance performance marketing specialist.">
+<meta name="keywords" content="Meta Ads Expert, Google Ads Expert, Performance Marketing, Facebook Ads, Freelance Digital Marketer">
+<meta property="og:title" content="Sagar | Meta Ads & Google Ads Specialist">
+<meta property="og:description" content="Scale your business with high-converting Meta &amp; Google Ads campaigns.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    darkMode: 'class',
+    theme: {
+      extend: {
+        colors: {
+          primary: { DEFAULT: '#E53935', dark: '#C62828', light: '#FF6B6B' },
+          ink: '#171321',
+          surface: '#F8F9FA',
+        },
+        fontFamily: {
+          display: ['Poppins', 'sans-serif'],
+          body: ['Inter', 'sans-serif'],
+        },
+        borderRadius: { '3xl': '1.75rem' },
+      }
+    }
+  }
+</script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+<style>
+:root {
+  --glass-bg: rgba(255, 255, 255, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.5);
+}
+.dark {
+  --glass-bg: rgba(23, 19, 33, 0.55);
+  --glass-border: rgba(255, 255, 255, 0.08);
+}
+
+* { scrollbar-width: thin; scrollbar-color: #E53935 transparent; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---------- Layout helpers ---------- */
+.section-pad { padding-top: 6rem; padding-bottom: 6rem; }
+
+/* ---------- Glass ---------- */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+}
+.glass-strong {
+  background: var(--glass-bg);
+  backdrop-filter: blur(24px) saturate(160%);
+  -webkit-backdrop-filter: blur(24px) saturate(160%);
+  border: 1px solid var(--glass-border);
+}
+#navbar.scrolled nav {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--glass-border);
+}
+
+/* ---------- Typography ---------- */
+.section-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+.text-gradient {
+  background: linear-gradient(100deg, #E53935 10%, #FF6B6B 60%, #C62828 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.eyebrow {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase;
+  color: #E53935;
+  background: rgba(229,57,53,0.08);
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+}
+.dark .eyebrow { background: rgba(255,107,107,0.12); color: #FF6B6B; }
+
+/* ---------- Nav ---------- */
+.nav-link {
+  font-size: 0.875rem; font-weight: 600; padding: 0.55rem 1rem; border-radius: 999px;
+  transition: all .25s ease; color: inherit; opacity: 0.75;
+}
+.nav-link:hover { opacity: 1; background: rgba(229,57,53,0.08); color: #E53935; }
+.nav-link-mobile { padding: 0.75rem 0.5rem; font-weight: 600; border-radius: 0.75rem; }
+.nav-link-mobile:hover { background: rgba(229,57,53,0.08); color: #E53935; }
+
+/* ---------- Buttons ---------- */
+.btn-primary {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  font-weight: 600; font-size: 0.9rem;
+  padding: 0.7rem 1.4rem; border-radius: 999px; color: #fff;
+  background: linear-gradient(135deg, #E53935, #FF6B6B);
+  box-shadow: 0 10px 25px -8px rgba(229,57,53,0.55);
+  transition: transform .25s ease, box-shadow .25s ease, filter .25s ease;
+}
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 16px 32px -10px rgba(229,57,53,0.65); filter: brightness(1.05); }
+.btn-outline {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  font-weight: 600; font-size: 0.9rem;
+  padding: 0.7rem 1.4rem; border-radius: 999px;
+  border: 1.5px solid rgba(229,57,53,0.35); color: #E53935;
+  transition: all .25s ease;
+}
+.btn-outline:hover { background: rgba(229,57,53,0.08); border-color: #E53935; }
+.dark .btn-outline { color: #FF6B6B; border-color: rgba(255,107,107,0.4); }
+
+/* ---------- Hero ---------- */
+.hero-bg {
+  background:
+    radial-gradient(650px circle at 15% 15%, rgba(229,57,53,0.12), transparent 60%),
+    radial-gradient(550px circle at 85% 25%, rgba(255,107,107,0.14), transparent 55%),
+    radial-gradient(700px circle at 50% 100%, rgba(229,57,53,0.06), transparent 60%);
+}
+.dark .hero-bg {
+  background:
+    radial-gradient(650px circle at 15% 15%, rgba(229,57,53,0.2), transparent 60%),
+    radial-gradient(550px circle at 85% 25%, rgba(255,107,107,0.18), transparent 55%),
+    radial-gradient(700px circle at 50% 100%, rgba(229,57,53,0.08), transparent 60%);
+}
+.floating-icon { position: absolute; opacity: 0.16; color: #E53935; animation: floatY 7s ease-in-out infinite; }
+@keyframes floatY { 0%,100% { transform: translateY(0) rotate(0deg);} 50% { transform: translateY(-22px) rotate(8deg);} }
+
+.dashboard-card { animation: cardFloat 6s ease-in-out infinite; }
+@keyframes cardFloat { 0%,100% { transform: translateY(0);} 50% { transform: translateY(-10px);} }
+.float-badge { animation: cardFloat 5s ease-in-out infinite; animation-delay: .5s; }
+
+.live-dot {
+  width: 8px; height: 8px; border-radius: 999px; background: #22c55e; position: relative; display: inline-block;
+}
+.live-dot::after {
+  content: ''; position: absolute; inset: 0; border-radius: 999px; background: #22c55e;
+  animation: pulse 1.8s ease-out infinite;
+}
+@keyframes pulse { 0% { transform: scale(1); opacity: .7; } 100% { transform: scale(2.6); opacity: 0; } }
+
+.metric-tile { background: rgba(0,0,0,0.02); border: 1px solid rgba(0,0,0,0.05); border-radius: 1rem; padding: 0.9rem 1rem; }
+.dark .metric-tile { background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,0.07); }
+
+.chart-line { stroke-dasharray: 300; stroke-dashoffset: 300; animation: draw 2s ease forwards .3s; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+
+/* ---------- Skill pills ---------- */
+.skill-pill {
+  font-size: 0.85rem; font-weight: 600;
+  padding: 0.6rem 1rem; border-radius: 0.85rem;
+  background: rgba(229,57,53,0.06); border: 1px solid rgba(229,57,53,0.12);
+  display: flex; align-items: center; gap: 0.5rem;
+}
+.skill-pill::before { content: '✓'; color: #E53935; font-weight: 800; }
+.dark .skill-pill { background: rgba(255,107,107,0.08); border-color: rgba(255,107,107,0.18); }
+
+/* ---------- Service cards ---------- */
+.service-card {
+  background: #fff; border: 1px solid rgba(0,0,0,0.05);
+  border-radius: 1.5rem; padding: 2rem 1.75rem;
+  transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease;
+}
+.service-card:hover { transform: translateY(-8px); box-shadow: 0 24px 45px -18px rgba(229,57,53,0.28); border-color: rgba(229,57,53,0.25); }
+.dark .service-card { background: rgba(255,255,255,0.03); border-color: rgba(255,255,255,0.07); }
+.service-icon {
+  width: 3rem; height: 3rem; border-radius: 1rem; display: grid; place-items: center;
+  background: linear-gradient(135deg, #E53935, #FF6B6B); color: #fff;
+}
+.service-icon i { width: 22px; height: 22px; }
+
+/* ---------- Why choose tiles ---------- */
+.why-tile {
+  display: flex; align-items: center; gap: 0.75rem;
+  padding: 1.1rem 1.25rem; border-radius: 1.1rem;
+  background: rgba(229,57,53,0.05); border: 1px solid rgba(229,57,53,0.1);
+  font-weight: 600; font-size: 0.9rem;
+  transition: transform .25s ease, background .25s ease;
+}
+.why-tile:hover { transform: translateY(-4px); background: rgba(229,57,53,0.09); }
+.why-tile i { color: #E53935; width: 20px; height: 20px; flex-shrink: 0; }
+.dark .why-tile { background: rgba(255,107,107,0.06); border-color: rgba(255,107,107,0.15); }
+
+/* ---------- Timeline ---------- */
+.timeline-line {
+  position: absolute; top: 22px; left: 8%; right: 8%; height: 2px;
+  background: repeating-linear-gradient(90deg, rgba(229,57,53,0.3) 0 10px, transparent 10px 18px);
+}
+.timeline-step { text-align: center; }
+.timeline-dot {
+  width: 46px; height: 46px; border-radius: 999px; margin: 0 auto;
+  display: grid; place-items: center; font-family: 'Poppins',sans-serif; font-weight: 800;
+  background: linear-gradient(135deg, #E53935, #FF6B6B); color: #fff;
+  box-shadow: 0 8px 20px -6px rgba(229,57,53,0.5); position: relative; z-index: 1;
+}
+
+/* ---------- Portfolio cards ---------- */
+.case-card {
+  background: #fff; border-radius: 1.5rem; overflow: hidden; border: 1px solid rgba(0,0,0,0.05);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+.case-card:hover { transform: translateY(-6px); box-shadow: 0 24px 45px -18px rgba(0,0,0,0.15); }
+.dark .case-card { background: rgba(255,255,255,0.03); border-color: rgba(255,255,255,0.07); }
+.case-cover { height: 140px; display: grid; place-items: center; color: #fff; }
+.case-cover i { width: 40px; height: 40px; opacity: 0.9; }
+.case-body { padding: 1.5rem; }
+.case-tag {
+  font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;
+  color: #E53935; background: rgba(229,57,53,0.08); padding: 0.25rem 0.6rem; border-radius: 999px;
+}
+.case-stats { display: flex; gap: 0.6rem; margin-top: 1rem; }
+.case-stats span {
+  font-size: 0.72rem; font-weight: 700; background: rgba(0,0,0,0.04); padding: 0.3rem 0.6rem; border-radius: 0.5rem;
+}
+.dark .case-stats span { background: rgba(255,255,255,0.06); }
+.add-project {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  border: 2px dashed rgba(229,57,53,0.3); background: transparent; padding: 2.5rem 1rem; text-align: center;
+}
+
+/* ---------- Testimonials ---------- */
+.testimonial-card {
+  background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 1.5rem; padding: 1.75rem;
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+.testimonial-card:hover { transform: translateY(-6px); box-shadow: 0 24px 45px -18px rgba(229,57,53,0.2); }
+.dark .testimonial-card { background: rgba(255,255,255,0.03); border-color: rgba(255,255,255,0.07); }
+.avatar {
+  width: 2.5rem; height: 2.5rem; border-radius: 999px; display: grid; place-items: center;
+  background: linear-gradient(135deg, #E53935, #FF6B6B); color: #fff; font-weight: 700; font-size: 0.8rem;
+}
+
+/* ---------- FAQ ---------- */
+.faq-item { border: 1px solid rgba(0,0,0,0.07); border-radius: 1.1rem; overflow: hidden; background: #fff; }
+.dark .faq-item { background: rgba(255,255,255,0.03); border-color: rgba(255,255,255,0.08); }
+.faq-question {
+  width: 100%; display: flex; align-items: center; justify-content: space-between;
+  padding: 1.15rem 1.4rem; font-weight: 600; text-align: left; font-family: 'Poppins', sans-serif;
+}
+.faq-chevron { width: 18px; height: 18px; color: #E53935; transition: transform .3s ease; flex-shrink: 0; }
+.faq-item.open .faq-chevron { transform: rotate(180deg); }
+.faq-answer { max-height: 0; overflow: hidden; transition: max-height .35s ease, padding .35s ease; padding: 0 1.4rem; }
+.faq-answer p { padding-bottom: 1.15rem; color: rgba(0,0,0,0.6); font-size: 0.92rem; line-height: 1.6; }
+.dark .faq-answer p { color: rgba(255,255,255,0.6); }
+.faq-item.open .faq-answer { max-height: 220px; }
+
+/* ---------- Contact ---------- */
+.contact-card { background: linear-gradient(135deg, #E53935, #C62828); box-shadow: 0 30px 60px -24px rgba(229,57,53,0.45); }
+.contact-row { display: flex; align-items: center; gap: 0.9rem; transition: transform .2s ease; }
+.contact-row:hover { transform: translateX(4px); }
+.contact-icon { width: 2.75rem; height: 2.75rem; border-radius: 0.9rem; background: rgba(255,255,255,0.18); display: grid; place-items: center; flex-shrink: 0; }
+.form-label { font-size: 0.8rem; font-weight: 600; margin-bottom: 0.4rem; display: block; }
+.form-input {
+  width: 100%; padding: 0.75rem 1rem; border-radius: 0.85rem;
+  border: 1.5px solid rgba(0,0,0,0.1); background: rgba(0,0,0,0.02);
+  font-size: 0.9rem; transition: border-color .2s ease, box-shadow .2s ease;
+}
+.form-input:focus { outline: none; border-color: #E53935; box-shadow: 0 0 0 4px rgba(229,57,53,0.12); }
+.dark .form-input { border-color: rgba(255,255,255,0.12); background: rgba(255,255,255,0.04); color: #fff; }
+.form-error { display: none; color: #E53935; font-size: 0.75rem; margin-top: 0.35rem; }
+.form-input.invalid { border-color: #E53935; }
+.form-input.invalid + .form-error { display: block; }
+
+/* ---------- Footer ---------- */
+.footer-heading { font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 0.9rem; }
+.social-icon {
+  width: 2.5rem; height: 2.5rem; border-radius: 0.85rem; display: grid; place-items: center;
+  background: rgba(229,57,53,0.08); color: #E53935; transition: all .25s ease;
+}
+.social-icon:hover { background: #E53935; color: #fff; transform: translateY(-3px); }
+.dark .social-icon { background: rgba(255,107,107,0.12); color: #FF6B6B; }
+
+/* ---------- Floating buttons ---------- */
+.floating-btn {
+  position: fixed; right: 1.5rem; width: 3.25rem; height: 3.25rem; border-radius: 999px;
+  display: grid; place-items: center; color: #fff; z-index: 40;
+  box-shadow: 0 12px 26px -8px rgba(0,0,0,0.35); transition: transform .25s ease;
+}
+.floating-btn:hover { transform: scale(1.08); }
+.whatsapp-btn { bottom: 1.5rem; background: #25D366; }
+.top-btn { bottom: 5.75rem; background: linear-gradient(135deg, #E53935, #FF6B6B); }
+
+/* ---------- Scroll reveal ---------- */
+[data-reveal] { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
+[data-reveal].revealed { opacity: 1; transform: translateY(0); }
+
+/* ---------- Typing effect cursor ---------- */
+.type-cursor { display: inline-block; width: 2px; background: currentColor; margin-left: 2px; animation: blink 1s step-end infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+
+</style>
+</head>
+<body class="font-body bg-surface text-ink antialiased dark:bg-[#0E0C14] dark:text-[#F2F0F5] transition-colors duration-300">
+
+<!-- Loading Screen -->
+<div id="loader" class="fixed inset-0 z-[100] flex items-center justify-center bg-surface dark:bg-[#0E0C14] transition-opacity duration-500">
+  <div class="flex flex-col items-center gap-4">
+    <div class="relative w-16 h-16">
+      <div class="absolute inset-0 rounded-full border-4 border-primary/15"></div>
+      <div class="absolute inset-0 rounded-full border-4 border-transparent border-t-primary animate-spin"></div>
+      <i data-lucide="rocket" class="absolute inset-0 m-auto w-6 h-6 text-primary"></i>
+    </div>
+    <p class="font-display text-sm tracking-[0.3em] uppercase text-ink/50 dark:text-white/50">Launching Campaign</p>
+  </div>
+</div>
+
+<!-- Navbar -->
+<header id="navbar" class="fixed top-0 inset-x-0 z-50 transition-all duration-300">
+  <nav class="mx-auto max-w-7xl px-5 sm:px-8 flex items-center justify-between h-20">
+    <a href="#home" class="flex items-center gap-2 font-display font-800 text-xl">
+      <span class="grid place-items-center w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-primary-light text-white shadow-lg shadow-primary/30">
+        <i data-lucide="zap" class="w-4.5 h-4.5" style="width:18px;height:18px"></i>
+      </span>
+      <span>Sagar<span class="text-primary">.</span></span>
+    </a>
+
+    <div class="hidden lg:flex items-center gap-1 rounded-full px-2 py-1.5 glass">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#process" class="nav-link">Process</a>
+      <a href="#portfolio" class="nav-link">Portfolio</a>
+      <a href="#testimonials" class="nav-link">Reviews</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+
+    <div class="flex items-center gap-3">
+      <button id="theme-toggle" aria-label="Toggle dark mode" class="grid place-items-center w-10 h-10 rounded-full glass hover:scale-105 transition-transform">
+        <i data-lucide="sun-medium" id="icon-sun" class="w-4.5 h-4.5" style="width:18px;height:18px"></i>
+        <i data-lucide="moon" id="icon-moon" class="w-4.5 h-4.5 hidden" style="width:18px;height:18px"></i>
+      </button>
+      <a href="#contact" class="hidden sm:inline-flex btn-primary">Get Free Consultation</a>
+      <button id="menu-btn" aria-label="Open menu" class="lg:hidden grid place-items-center w-10 h-10 rounded-full glass">
+        <i data-lucide="menu" class="w-5 h-5"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="lg:hidden hidden mx-4 mt-2 rounded-2xl glass p-4 flex flex-col gap-1">
+    <a href="#about" class="nav-link-mobile">About</a>
+    <a href="#services" class="nav-link-mobile">Services</a>
+    <a href="#process" class="nav-link-mobile">Process</a>
+    <a href="#portfolio" class="nav-link-mobile">Portfolio</a>
+    <a href="#testimonials" class="nav-link-mobile">Reviews</a>
+    <a href="#faq" class="nav-link-mobile">FAQ</a>
+    <a href="#contact" class="nav-link-mobile">Contact</a>
+    <a href="#contact" class="btn-primary justify-center mt-2">Get Free Consultation</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="relative overflow-hidden pt-40 pb-24 sm:pt-48 sm:pb-32">
+  <div class="hero-bg absolute inset-0 -z-10"></div>
+  <div id="hero-icons" class="absolute inset-0 -z-10 overflow-hidden hidden md:block"></div>
+
+  <div class="mx-auto max-w-7xl px-5 sm:px-8 grid lg:grid-cols-2 gap-16 items-center">
+    <div data-reveal>
+      <span class="eyebrow"><i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Freelance Performance Marketer</span>
+      <h1 class="mt-5 font-display font-800 text-4xl sm:text-5xl lg:text-[3.4rem] leading-[1.08] tracking-tight">
+        Scale Your Business with <span class="text-gradient">High-Converting</span> Meta &amp; Google Ads
+      </h1>
+      <p class="mt-6 text-lg text-ink/70 dark:text-white/65 max-w-xl">
+        I help businesses generate more leads, increase sales, and maximize ROI through strategic Meta Ads and Google Ads campaigns.
+      </p>
+      <div class="mt-9 flex flex-wrap gap-4">
+        <a href="#contact" class="btn-primary text-base px-7 py-3.5">🔥 Get Free Consultation</a>
+        <a href="#contact" class="btn-outline text-base px-7 py-3.5">📞 Contact Me</a>
+      </div>
+
+      <div class="mt-12 grid grid-cols-3 gap-6 max-w-md">
+        <div>
+          <p class="font-display font-800 text-3xl"><span class="counter" data-target="120">0</span>+</p>
+          <p class="text-sm text-ink/55 dark:text-white/50 mt-1">Campaigns Launched</p>
+        </div>
+        <div>
+          <p class="font-display font-800 text-3xl"><span class="counter" data-target="4">0</span>x</p>
+          <p class="text-sm text-ink/55 dark:text-white/50 mt-1">Avg. ROAS Boost</p>
+        </div>
+        <div>
+          <p class="font-display font-800 text-3xl"><span class="counter" data-target="98">0</span>%</p>
+          <p class="text-sm text-ink/55 dark:text-white/50 mt-1">Client Satisfaction</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Signature element: Live campaign dashboard mockup -->
+    <div data-reveal data-reveal-delay="150" class="relative">
+      <div class="dashboard-card glass-strong rounded-3xl p-6 sm:p-7 shadow-2xl shadow-primary/10 relative">
+        <div class="flex items-center justify-between mb-6">
+          <div class="flex items-center gap-2">
+            <span class="live-dot"></span>
+            <span class="text-xs font-semibold tracking-wide uppercase text-ink/50 dark:text-white/50">Live Campaign Feed</span>
+          </div>
+          <i data-lucide="more-horizontal" class="w-4 h-4 text-ink/30"></i>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4 mb-6">
+          <div class="metric-tile">
+            <p class="text-xs text-ink/50 dark:text-white/50 flex items-center gap-1"><i data-lucide="mouse-pointer-click" class="w-3.5 h-3.5"></i> CTR</p>
+            <p class="font-display font-700 text-2xl mt-1"><span class="counter-dec" data-target="6.8">0</span>%</p>
+            <p class="text-xs text-emerald-500 mt-0.5 flex items-center gap-1"><i data-lucide="trending-up" class="w-3 h-3"></i> +2.3%</p>
+          </div>
+          <div class="metric-tile">
+            <p class="text-xs text-ink/50 dark:text-white/50 flex items-center gap-1"><i data-lucide="badge-indian-rupee" class="w-3.5 h-3.5"></i> ROAS</p>
+            <p class="font-display font-700 text-2xl mt-1"><span class="counter-dec" data-target="5.2">0</span>x</p>
+            <p class="text-xs text-emerald-500 mt-0.5 flex items-center gap-1"><i data-lucide="trending-up" class="w-3 h-3"></i> +0.8x</p>
+          </div>
+          <div class="metric-tile">
+            <p class="text-xs text-ink/50 dark:text-white/50 flex items-center gap-1"><i data-lucide="users" class="w-3.5 h-3.5"></i> Leads</p>
+            <p class="font-display font-700 text-2xl mt-1"><span class="counter" data-target="342">0</span></p>
+            <p class="text-xs text-emerald-500 mt-0.5 flex items-center gap-1"><i data-lucide="trending-up" class="w-3 h-3"></i> +18%</p>
+          </div>
+          <div class="metric-tile">
+            <p class="text-xs text-ink/50 dark:text-white/50 flex items-center gap-1"><i data-lucide="target" class="w-3.5 h-3.5"></i> CPL</p>
+            <p class="font-display font-700 text-2xl mt-1">₹<span class="counter" data-target="84">0</span></p>
+            <p class="text-xs text-emerald-500 mt-0.5 flex items-center gap-1"><i data-lucide="trending-down" class="w-3 h-3"></i> -12%</p>
+          </div>
+        </div>
+
+        <div class="rounded-2xl bg-ink/[0.03] dark:bg-white/5 p-4">
+          <p class="text-xs font-semibold text-ink/50 dark:text-white/50 mb-3">Weekly Performance</p>
+          <svg viewBox="0 0 260 70" class="w-full h-16">
+            <polyline points="0,55 35,45 70,50 105,30 140,35 175,15 210,20 260,5" fill="none" stroke="url(#g1)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="chart-line"/>
+            <defs>
+              <linearGradient id="g1" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#E53935"/>
+                <stop offset="100%" stop-color="#FF6B6B"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+      <div class="absolute -bottom-6 -left-6 glass-strong rounded-2xl px-4 py-3 shadow-xl hidden sm:flex items-center gap-2 float-badge">
+        <i data-lucide="badge-check" class="w-5 h-5 text-primary"></i>
+        <span class="text-xs font-semibold">Meta &amp; Google Certified</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLIENT MARQUEE / trust strip -->
+<div class="border-y border-ink/5 dark:border-white/5 py-6 overflow-hidden bg-white/50 dark:bg-white/[0.02]">
+  <p class="text-center text-xs uppercase tracking-[0.25em] text-ink/40 dark:text-white/40 mb-4">Platforms I run campaigns on, daily</p>
+  <div class="flex justify-center flex-wrap gap-x-10 gap-y-3 px-5 text-ink/45 dark:text-white/40 font-display font-600 text-sm sm:text-base">
+    <span class="flex items-center gap-2"><i data-lucide="facebook" class="w-4 h-4"></i> Meta Ads</span>
+    <span class="flex items-center gap-2"><i data-lucide="search" class="w-4 h-4"></i> Google Search</span>
+    <span class="flex items-center gap-2"><i data-lucide="instagram" class="w-4 h-4"></i> Instagram Ads</span>
+    <span class="flex items-center gap-2"><i data-lucide="youtube" class="w-4 h-4"></i> YouTube Ads</span>
+    <span class="flex items-center gap-2"><i data-lucide="layout-grid" class="w-4 h-4"></i> Display Network</span>
+    <span class="flex items-center gap-2"><i data-lucide="shopping-bag" class="w-4 h-4"></i> Shopping Ads</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="section-pad">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8 grid lg:grid-cols-2 gap-14 items-center">
+    <div data-reveal class="relative order-2 lg:order-1">
+      <div class="about-illustration glass-strong rounded-3xl p-8 aspect-square max-w-md mx-auto grid place-items-center">
+        <svg viewBox="0 0 240 240" class="w-full h-full">
+          <circle cx="120" cy="120" r="110" fill="none" stroke="currentColor" class="text-primary/10" stroke-width="2" stroke-dasharray="4 6"/>
+          <rect x="55" y="70" width="130" height="90" rx="14" fill="none" stroke="#E53935" stroke-width="3"/>
+          <rect x="70" y="95" width="35" height="45" rx="4" fill="#FF6B6B" opacity="0.85"/>
+          <rect x="112" y="80" width="35" height="60" rx="4" fill="#E53935"/>
+          <rect x="154" y="105" width="18" height="35" rx="4" fill="#FF6B6B" opacity="0.6"/>
+          <circle cx="180" cy="60" r="20" fill="#E53935" opacity="0.12"/>
+          <path d="M170 60 l7 7 13 -14" stroke="#E53935" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="55" cy="180" r="16" fill="#FF6B6B" opacity="0.15"/>
+          <path d="M48 180 h14 M55 173 v14" stroke="#E53935" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </div>
+    <div data-reveal class="order-1 lg:order-2">
+      <span class="eyebrow"><i data-lucide="user-round" class="w-3.5 h-3.5"></i> Who I Am</span>
+      <h2 class="section-title mt-4">Performance-obsessed marketer, not just an ad clicker</h2>
+      <p class="mt-5 text-ink/70 dark:text-white/65 text-lg leading-relaxed">
+        I'm a freelance Performance Marketing Specialist helping businesses grow using result-driven paid advertising strategies. No fluff, no vanity metrics — just campaigns built to convert.
+      </p>
+      <ul class="mt-7 grid sm:grid-cols-2 gap-3">
+        <li class="skill-pill">Meta Ads Campaign Management</li>
+        <li class="skill-pill">Google Search Ads</li>
+        <li class="skill-pill">Google Display Ads</li>
+        <li class="skill-pill">Performance Marketing</li>
+        <li class="skill-pill">Lead Generation</li>
+        <li class="skill-pill">Conversion Optimization</li>
+        <li class="skill-pill">Audience Targeting</li>
+        <li class="skill-pill">ROI Optimization</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section-pad bg-white/60 dark:bg-white/[0.02]">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <div class="max-w-2xl mx-auto text-center" data-reveal>
+      <span class="eyebrow mx-auto"><i data-lucide="layers" class="w-3.5 h-3.5"></i> Services</span>
+      <h2 class="section-title mt-4">Everything your paid growth engine needs</h2>
+      <p class="mt-4 text-ink/65 dark:text-white/60">From first click to closed sale — I manage the full performance stack.</p>
+    </div>
+
+    <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="service-card" data-reveal>
+        <div class="service-icon"><i data-lucide="smartphone"></i></div>
+        <h3 class="font-display font-700 text-lg mt-5">Meta Ads Expert</h3>
+        <ul class="mt-4 space-y-2 text-sm text-ink/60 dark:text-white/55">
+          <li>Facebook Ads</li><li>Instagram Ads</li><li>Lead Generation</li><li>Sales Campaigns</li><li>Remarketing</li>
+        </ul>
+      </div>
+      <div class="service-card" data-reveal data-reveal-delay="100">
+        <div class="service-icon"><i data-lucide="search"></i></div>
+        <h3 class="font-display font-700 text-lg mt-5">Google Ads Expert</h3>
+        <ul class="mt-4 space-y-2 text-sm text-ink/60 dark:text-white/55">
+          <li>Search Ads</li><li>Display Ads</li><li>YouTube Ads</li><li>Shopping Ads</li><li>Performance Max</li>
+        </ul>
+      </div>
+      <div class="service-card" data-reveal data-reveal-delay="200">
+        <div class="service-icon"><i data-lucide="line-chart"></i></div>
+        <h3 class="font-display font-700 text-lg mt-5">Performance Marketing</h3>
+        <ul class="mt-4 space-y-2 text-sm text-ink/60 dark:text-white/55">
+          <li>Funnel Strategy</li><li>Conversion Tracking</li><li>Pixel Setup</li><li>Analytics</li><li>Campaign Optimization</li>
+        </ul>
+      </div>
+      <div class="service-card" data-reveal data-reveal-delay="300">
+        <div class="service-icon"><i data-lucide="rocket"></i></div>
+        <h3 class="font-display font-700 text-lg mt-5">Business Growth Strategy</h3>
+        <ul class="mt-4 space-y-2 text-sm text-ink/60 dark:text-white/55">
+          <li>Competitor Research</li><li>Audience Research</li><li>Budget Planning</li><li>Scaling Strategy</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE ME -->
+<section class="section-pad">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <div class="max-w-2xl mx-auto text-center" data-reveal>
+      <span class="eyebrow mx-auto"><i data-lucide="shield-check" class="w-3.5 h-3.5"></i> Why Choose Me</span>
+      <h2 class="section-title mt-4">Built for founders who want results, not reports full of jargon</h2>
+    </div>
+    <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div class="why-tile" data-reveal><i data-lucide="target"></i><span>ROI Focused Campaigns</span></div>
+      <div class="why-tile" data-reveal data-reveal-delay="60"><i data-lucide="bar-chart-3"></i><span>Data Driven Decisions</span></div>
+      <div class="why-tile" data-reveal data-reveal-delay="120"><i data-lucide="wallet"></i><span>Affordable Pricing</span></div>
+      <div class="why-tile" data-reveal data-reveal-delay="180"><i data-lucide="message-circle"></i><span>Fast Communication</span></div>
+      <div class="why-tile" data-reveal><i data-lucide="settings-2"></i><span>Daily Optimization</span></div>
+      <div class="why-tile" data-reveal data-reveal-delay="60"><i data-lucide="file-check-2"></i><span>Honest Reporting</span></div>
+      <div class="why-tile" data-reveal data-reveal-delay="120"><i data-lucide="gem"></i><span>Quality Leads</span></div>
+      <div class="why-tile" data-reveal data-reveal-delay="180"><i data-lucide="trending-up"></i><span>High Conversion Strategy</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" class="section-pad bg-white/60 dark:bg-white/[0.02]">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <div class="max-w-2xl mx-auto text-center" data-reveal>
+      <span class="eyebrow mx-auto"><i data-lucide="route" class="w-3.5 h-3.5"></i> Process</span>
+      <h2 class="section-title mt-4">A straight line from strategy to scale</h2>
+    </div>
+
+    <div class="mt-16 relative">
+      <div class="timeline-line hidden lg:block"></div>
+      <div class="grid lg:grid-cols-6 gap-8 lg:gap-4">
+        <div class="timeline-step" data-reveal>
+          <div class="timeline-dot">1</div>
+          <h4 class="font-display font-700 mt-4">Strategy Discussion</h4>
+        </div>
+        <div class="timeline-step" data-reveal data-reveal-delay="80">
+          <div class="timeline-dot">2</div>
+          <h4 class="font-display font-700 mt-4">Research &amp; Planning</h4>
+        </div>
+        <div class="timeline-step" data-reveal data-reveal-delay="160">
+          <div class="timeline-dot">3</div>
+          <h4 class="font-display font-700 mt-4">Campaign Setup</h4>
+        </div>
+        <div class="timeline-step" data-reveal data-reveal-delay="240">
+          <div class="timeline-dot">4</div>
+          <h4 class="font-display font-700 mt-4">Launch Ads</h4>
+        </div>
+        <div class="timeline-step" data-reveal data-reveal-delay="320">
+          <div class="timeline-dot">5</div>
+          <h4 class="font-display font-700 mt-4">Optimization</h4>
+        </div>
+        <div class="timeline-step" data-reveal data-reveal-delay="400">
+          <div class="timeline-dot">6</div>
+          <h4 class="font-display font-700 mt-4">Growth &amp; Scaling</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="section-pad">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <div class="max-w-2xl mx-auto text-center" data-reveal>
+      <span class="eyebrow mx-auto"><i data-lucide="briefcase" class="w-3.5 h-3.5"></i> Portfolio</span>
+      <h2 class="section-title mt-4">Recent campaign case studies</h2>
+    </div>
+
+    <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-7">
+
+      <article class="case-card" data-reveal>
+        <div class="case-cover" style="background:linear-gradient(135deg,#E53935,#FF6B6B)">
+          <i data-lucide="users-round"></i>
+        </div>
+        <div class="case-body">
+          <span class="case-tag">Meta Ads</span>
+          <h3 class="font-display font-700 text-lg mt-3">Lead Generation Campaign</h3>
+          <p class="text-sm text-ink/60 dark:text-white/55 mt-2">Real-estate lead funnel that cut cost-per-lead by 46% in 60 days.</p>
+          <div class="case-stats"><span>↓46% CPL</span><span>860 Leads</span></div>
+        </div>
+      </article>
+
+      <article class="case-card" data-reveal data-reveal-delay="80">
+        <div class="case-cover" style="background:linear-gradient(135deg,#FF6B6B,#171321)">
+          <i data-lucide="shopping-cart"></i>
+        </div>
+        <div class="case-body">
+          <span class="case-tag">Google Ads</span>
+          <h3 class="font-display font-700 text-lg mt-3">E-commerce Ads</h3>
+          <p class="text-sm text-ink/60 dark:text-white/55 mt-2">Shopping + Performance Max mix that scaled monthly revenue 3.1x.</p>
+          <div class="case-stats"><span>3.1x ROAS</span><span>+180% Sales</span></div>
+        </div>
+      </article>
+
+      <article class="case-card" data-reveal data-reveal-delay="160">
+        <div class="case-cover" style="background:linear-gradient(135deg,#171321,#E53935)">
+          <i data-lucide="megaphone"></i>
+        </div>
+        <div class="case-body">
+          <span class="case-tag">Meta Ads</span>
+          <h3 class="font-display font-700 text-lg mt-3">Brand Awareness Campaign</h3>
+          <p class="text-sm text-ink/60 dark:text-white/55 mt-2">Reach + video views strategy for a D2C launch across 3 states.</p>
+          <div class="case-stats"><span>2.4M Reach</span><span>₹0.18 CPV</span></div>
+        </div>
+      </article>
+
+      <article class="case-card" data-reveal>
+        <div class="case-cover" style="background:linear-gradient(135deg,#E53935,#171321)">
+          <i data-lucide="search-check"></i>
+        </div>
+        <div class="case-body">
+          <span class="case-tag">Google Ads</span>
+          <h3 class="font-display font-700 text-lg mt-3">Google Search Campaign</h3>
+          <p class="text-sm text-ink/60 dark:text-white/55 mt-2">High-intent search ads for a local service business, booked out for weeks.</p>
+          <div class="case-stats"><span>+92% Calls</span><span>₹64 CPL</span></div>
+        </div>
+      </article>
+
+      <article class="case-card" data-reveal data-reveal-delay="80">
+        <div class="case-cover" style="background:linear-gradient(135deg,#FF6B6B,#E53935)">
+          <i data-lucide="badge-percent"></i>
+        </div>
+        <div class="case-body">
+          <span class="case-tag">Meta Ads</span>
+          <h3 class="font-display font-700 text-lg mt-3">Meta Sales Campaign</h3>
+          <p class="text-sm text-ink/60 dark:text-white/55 mt-2">Retargeting + lookalike stack that doubled checkout conversion rate.</p>
+          <div class="case-stats"><span>2x CVR</span><span>4.6x ROAS</span></div>
+        </div>
+      </article>
+
+      <article class="case-card add-project" data-reveal data-reveal-delay="160">
+        <i data-lucide="plus-circle" class="w-8 h-8 text-primary"></i>
+        <p class="font-display font-700 mt-3">Your Brand Next?</p>
+        <a href="#contact" class="text-sm text-primary font-semibold mt-1 hover:underline">Start a campaign →</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="section-pad bg-white/60 dark:bg-white/[0.02]">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <div class="max-w-2xl mx-auto text-center" data-reveal>
+      <span class="eyebrow mx-auto"><i data-lucide="quote" class="w-3.5 h-3.5"></i> Testimonials</span>
+      <h2 class="section-title mt-4">What clients say after working with me</h2>
+    </div>
+
+    <div class="mt-14 grid md:grid-cols-3 gap-6">
+      <div class="testimonial-card" data-reveal>
+        <div class="flex gap-1 text-primary mb-4">★★★★★</div>
+        <p class="text-ink/75 dark:text-white/70 text-sm leading-relaxed">"Our cost per lead dropped within the first two weeks. Reporting is clear and he actually explains the 'why' behind every change."</p>
+        <div class="flex items-center gap-3 mt-6">
+          <div class="avatar">RK</div>
+          <div>
+            <p class="font-display font-600 text-sm">Rohit Kapoor</p>
+            <p class="text-xs text-ink/50 dark:text-white/45">Founder, Urban Interiors</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card" data-reveal data-reveal-delay="100">
+        <div class="flex gap-1 text-primary mb-4">★★★★★</div>
+        <p class="text-ink/75 dark:text-white/70 text-sm leading-relaxed">"We scaled our Meta Ads spend 3x without losing efficiency. Best performance marketer we've worked with as a small business."</p>
+        <div class="flex items-center gap-3 mt-6">
+          <div class="avatar">NS</div>
+          <div>
+            <p class="font-display font-600 text-sm">Neha Sharma</p>
+            <p class="text-xs text-ink/50 dark:text-white/45">Owner, Glow Skincare Studio</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card" data-reveal data-reveal-delay="200">
+        <div class="flex gap-1 text-primary mb-4">★★★★★</div>
+        <p class="text-ink/75 dark:text-white/70 text-sm leading-relaxed">"Finally someone who treats my ad budget like it's their own money. Google Ads finally feels predictable."</p>
+        <div class="flex items-center gap-3 mt-6">
+          <div class="avatar">AV</div>
+          <div>
+            <p class="font-display font-600 text-sm">Aditya Verma</p>
+            <p class="text-xs text-ink/50 dark:text-white/45">Director, FitCore Gyms</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section-pad">
+  <div class="mx-auto max-w-4xl px-5 sm:px-8">
+    <div class="max-w-2xl mx-auto text-center" data-reveal>
+      <span class="eyebrow mx-auto"><i data-lucide="help-circle" class="w-3.5 h-3.5"></i> FAQ</span>
+      <h2 class="section-title mt-4">Questions I get asked the most</h2>
+    </div>
+
+    <div class="mt-12 space-y-4">
+      <div class="faq-item" data-reveal>
+        <button class="faq-question">
+          <span>What is Meta Ads?</span>
+          <i data-lucide="chevron-down" class="faq-chevron"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Meta Ads is the advertising platform for Facebook and Instagram. It lets businesses target people by interests, behavior, and location to generate leads, sales, or brand awareness.</p>
+        </div>
+      </div>
+      <div class="faq-item" data-reveal>
+        <button class="faq-question">
+          <span>How much budget should I start with?</span>
+          <i data-lucide="chevron-down" class="faq-chevron"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Most businesses see meaningful data with a starting daily budget as low as ₹500–₹1,000. During our strategy call, I'll recommend a number based on your goals and industry.</p>
+        </div>
+      </div>
+      <div class="faq-item" data-reveal>
+        <button class="faq-question">
+          <span>How long before results?</span>
+          <i data-lucide="chevron-down" class="faq-chevron"></i>
+        </button>
+        <div class="faq-answer">
+          <p>You'll usually see early signals within the first 7–14 days as the algorithm learns. Stronger, more stable results typically build over 4–6 weeks of optimization.</p>
+        </div>
+      </div>
+      <div class="faq-item" data-reveal>
+        <button class="faq-question">
+          <span>Do you manage Google Ads too?</span>
+          <i data-lucide="chevron-down" class="faq-chevron"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Yes — I run Search, Display, Shopping, YouTube, and Performance Max campaigns, and I often combine Google Ads with Meta Ads for full-funnel coverage.</p>
+        </div>
+      </div>
+      <div class="faq-item" data-reveal>
+        <button class="faq-question">
+          <span>Can you help local businesses?</span>
+          <i data-lucide="chevron-down" class="faq-chevron"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Absolutely. Local lead generation for clinics, real estate, gyms, and service businesses is one of my core specialities, using location targeting and call-tracking.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section-pad">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <div class="contact-card rounded-3xl overflow-hidden grid lg:grid-cols-2">
+      <div class="p-9 sm:p-12 text-white relative">
+        <span class="inline-flex items-center gap-2 text-xs uppercase tracking-widest bg-white/15 rounded-full px-3 py-1"><i data-lucide="send" class="w-3.5 h-3.5"></i> Let's Talk</span>
+        <h2 class="font-display font-800 text-3xl sm:text-4xl mt-5 leading-tight">Ready to scale your ad results?</h2>
+        <p class="mt-4 text-white/85 max-w-md">Book a free consultation and get a custom growth plan for your Meta &amp; Google Ads — no obligation.</p>
+
+        <div class="mt-9 space-y-4">
+          <a href="mailto:sv702172@gmail.com" class="contact-row">
+            <span class="contact-icon"><i data-lucide="mail"></i></span>
+            <div>
+              <p class="text-xs text-white/70">Email</p>
+              <p class="font-semibold">sv702172@gmail.com</p>
+            </div>
+          </a>
+          <a href="https://wa.me/917488925205" target="_blank" rel="noopener" class="contact-row">
+            <span class="contact-icon"><i data-lucide="message-circle"></i></span>
+            <div>
+              <p class="text-xs text-white/70">WhatsApp</p>
+              <p class="font-semibold">+91 74889 25205</p>
+            </div>
+          </a>
+          <a href="https://www.instagram.com/sagar__editorr/" target="_blank" rel="noopener" class="contact-row">
+            <span class="contact-icon"><i data-lucide="instagram"></i></span>
+            <div>
+              <p class="text-xs text-white/70">Instagram</p>
+              <p class="font-semibold">@sagar__editorr</p>
+            </div>
+          </a>
+          <a href="https://www.facebook.com/sagar.kunar.35574" target="_blank" rel="noopener" class="contact-row">
+            <span class="contact-icon"><i data-lucide="facebook"></i></span>
+            <div>
+              <p class="text-xs text-white/70">Facebook</p>
+              <p class="font-semibold">Sagar Kunar</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="bg-white dark:bg-[#171321] p-9 sm:p-12">
+        <form id="contact-form" novalidate class="space-y-5">
+          <div>
+            <label class="form-label" for="name">Full name</label>
+            <input id="name" name="name" type="text" class="form-input" placeholder="Your name" required>
+            <p class="form-error" data-error-for="name">Please enter your name.</p>
+          </div>
+          <div>
+            <label class="form-label" for="email">Email</label>
+            <input id="email" name="email" type="email" class="form-input" placeholder="you@company.com" required>
+            <p class="form-error" data-error-for="email">Please enter a valid email.</p>
+          </div>
+          <div>
+            <label class="form-label" for="budget">Monthly ad budget</label>
+            <select id="budget" name="budget" class="form-input">
+              <option>Under ₹20,000</option>
+              <option>₹20,000 – ₹50,000</option>
+              <option>₹50,000 – ₹1,00,000</option>
+              <option>Above ₹1,00,000</option>
+            </select>
+          </div>
+          <div>
+            <label class="form-label" for="message">Message</label>
+            <textarea id="message" name="message" rows="4" class="form-input" placeholder="Tell me about your business and goals..." required></textarea>
+            <p class="form-error" data-error-for="message">Please share a short message.</p>
+          </div>
+          <button type="submit" class="btn-primary w-full justify-center">Send Message</button>
+          <p id="form-success" class="hidden text-sm text-emerald-600 dark:text-emerald-400 font-medium text-center">✔ Thanks! Your message has been noted — I'll reply within 24 hours.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="pt-20 pb-8 border-t border-ink/5 dark:border-white/5">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div class="lg:col-span-2">
+        <a href="#home" class="flex items-center gap-2 font-display font-800 text-xl">
+          <span class="grid place-items-center w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-primary-light text-white">
+            <i data-lucide="zap" style="width:18px;height:18px"></i>
+          </span>
+          Sagar<span class="text-primary">.</span>
+        </a>
+        <p class="mt-4 text-sm text-ink/60 dark:text-white/50 max-w-xs">Helping Businesses Grow with Smart Digital Advertising.</p>
+        <div class="flex gap-3 mt-6">
+          <a href="mailto:sv702172@gmail.com" class="social-icon"><i data-lucide="mail"></i></a>
+          <a href="https://wa.me/917488925205" target="_blank" rel="noopener" class="social-icon"><i data-lucide="message-circle"></i></a>
+          <a href="https://www.instagram.com/sagar__editorr/" target="_blank" rel="noopener" class="social-icon"><i data-lucide="instagram"></i></a>
+          <a href="https://www.facebook.com/sagar.kunar.35574" target="_blank" rel="noopener" class="social-icon"><i data-lucide="facebook"></i></a>
+        </div>
+      </div>
+      <div>
+        <p class="footer-heading">Navigate</p>
+        <ul class="space-y-2 mt-4 text-sm text-ink/60 dark:text-white/50">
+          <li><a href="#about" class="hover:text-primary transition-colors">About</a></li>
+          <li><a href="#services" class="hover:text-primary transition-colors">Services</a></li>
+          <li><a href="#portfolio" class="hover:text-primary transition-colors">Portfolio</a></li>
+          <li><a href="#contact" class="hover:text-primary transition-colors">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-heading">Legal</p>
+        <ul class="space-y-2 mt-4 text-sm text-ink/60 dark:text-white/50">
+          <li><a href="privacy.html" class="hover:text-primary transition-colors">Privacy Policy</a></li>
+          <li><a href="terms.html" class="hover:text-primary transition-colors">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-14 pt-6 border-t border-ink/5 dark:border-white/5 flex flex-col sm:flex-row justify-between gap-3 text-xs text-ink/45 dark:text-white/40">
+      <p>© 2026 Sagar. All Rights Reserved.</p>
+      <p>Meta Ads &amp; Google Ads Freelance Specialist</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating Buttons -->
+<a href="https://wa.me/917488925205" target="_blank" rel="noopener" aria-label="Chat on WhatsApp" class="floating-btn whatsapp-btn">
+  <i data-lucide="message-circle"></i>
+</a>
+<button id="back-to-top" aria-label="Back to top" class="floating-btn top-btn hidden">
+  <i data-lucide="arrow-up"></i>
+</button>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  if (window.lucide) lucide.createIcons();
+
+  /* ---------- Loading screen ---------- */
+  const loader = document.getElementById('loader');
+  window.addEventListener('load', () => {
+    setTimeout(() => {
+      loader.style.opacity = '0';
+      setTimeout(() => loader.remove(), 500);
+    }, 350);
+  });
+
+  /* ---------- Theme toggle ---------- */
+  const root = document.documentElement;
+  const themeToggle = document.getElementById('theme-toggle');
+  const iconSun = document.getElementById('icon-sun');
+  const iconMoon = document.getElementById('icon-moon');
+
+  function applyTheme(isDark) {
+    root.classList.toggle('dark', isDark);
+    iconSun.classList.toggle('hidden', isDark);
+    iconMoon.classList.toggle('hidden', !isDark);
+  }
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  let storedTheme = null;
+  try { storedTheme = window.localStorage ? localStorage.getItem('theme') : null; } catch (e) { storedTheme = null; }
+  applyTheme(storedTheme ? storedTheme === 'dark' : prefersDark);
+
+  themeToggle.addEventListener('click', () => {
+    const nowDark = !root.classList.contains('dark');
+    applyTheme(nowDark);
+    try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
+  });
+
+  /* ---------- Mobile menu ---------- */
+  const menuBtn = document.getElementById('menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+  menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+  mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileMenu.classList.add('hidden')));
+
+  /* ---------- Sticky navbar background ---------- */
+  const navbar = document.getElementById('navbar');
+  const onScroll = () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 20);
+    const topBtn = document.getElementById('back-to-top');
+    topBtn.classList.toggle('hidden', window.scrollY < 500);
+  };
+  document.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  /* ---------- Back to top ---------- */
+  document.getElementById('back-to-top').addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  /* ---------- Scroll reveal ---------- */
+  const revealEls = document.querySelectorAll('[data-reveal]');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const delay = entry.target.getAttribute('data-reveal-delay') || 0;
+        setTimeout(() => entry.target.classList.add('revealed'), Number(delay));
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealEls.forEach(el => io.observe(el));
+
+  /* ---------- Animated counters ---------- */
+  function animateCounter(el, decimals) {
+    const target = parseFloat(el.getAttribute('data-target'));
+    const duration = 1400;
+    const start = performance.now();
+    function tick(now) {
+      const progress = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const value = target * eased;
+      el.textContent = decimals ? value.toFixed(1) : Math.round(value);
+      if (progress < 1) requestAnimationFrame(tick);
+      else el.textContent = decimals ? target.toFixed(1) : target;
+    }
+    requestAnimationFrame(tick);
+  }
+  const counterEls = document.querySelectorAll('.counter, .counter-dec');
+  const counterIo = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounter(entry.target, entry.target.classList.contains('counter-dec'));
+        counterIo.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.4 });
+  counterEls.forEach(el => counterIo.observe(el));
+
+  /* ---------- FAQ accordion ---------- */
+  document.querySelectorAll('.faq-item').forEach(item => {
+    const question = item.querySelector('.faq-question');
+    question.addEventListener('click', () => {
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(openItem => {
+        if (openItem !== item) openItem.classList.remove('open');
+      });
+      item.classList.toggle('open', !isOpen);
+    });
+  });
+
+  /* ---------- Contact form validation ---------- */
+  const form = document.getElementById('contact-form');
+  const successMsg = document.getElementById('form-success');
+  if (form) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      let valid = true;
+      const name = form.querySelector('#name');
+      const email = form.querySelector('#email');
+      const message = form.querySelector('#message');
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+      [name, email, message].forEach(f => f.classList.remove('invalid'));
+
+      if (!name.value.trim()) { name.classList.add('invalid'); valid = false; }
+      if (!email.value.trim() || !emailPattern.test(email.value.trim())) { email.classList.add('invalid'); valid = false; }
+      if (!message.value.trim()) { message.classList.add('invalid'); valid = false; }
+
+      if (valid) {
+        successMsg.classList.remove('hidden');
+        form.reset();
+        setTimeout(() => successMsg.classList.add('hidden'), 6000);
+      } else {
+        successMsg.classList.add('hidden');
+      }
+    });
+  }
+
+  /* ---------- Floating background icons in hero ---------- */
+  const heroIcons = document.getElementById('hero-icons');
+  if (heroIcons) {
+    const icons = ['target', 'megaphone', 'trending-up', 'mouse-pointer-click', 'bar-chart-3', 'send'];
+    const positions = [
+      { top: '12%', left: '6%' }, { top: '68%', left: '10%' }, { top: '20%', left: '92%' },
+      { top: '78%', left: '88%' }, { top: '45%', left: '3%' }, { top: '8%', left: '80%' }
+    ];
+    icons.forEach((name, i) => {
+      const span = document.createElement('span');
+      span.className = 'floating-icon';
+      span.style.top = positions[i].top;
+      span.style.left = positions[i].left;
+      span.style.animationDelay = (i * 0.6) + 's';
+      span.innerHTML = `<i data-lucide="${name}" style="width:${28 + (i % 3) * 6}px;height:${28 + (i % 3) * 6}px"></i>`;
+      heroIcons.appendChild(span);
+    });
+    if (window.lucide) lucide.createIcons();
+  }
+
+  /* ---------- Typing effect on hero sub-tagline (eyebrow reuse-safe) ---------- */
+  // Applied subtly to avoid layout shift: skip if reduced motion preferred
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!reduceMotion) {
+    const typeTarget = document.querySelector('.eyebrow');
+    // Left as static badge intentionally to keep layout stable; typing reserved for future dynamic content.
+  }
+});
+
+</script>
+</body>
+</html>
